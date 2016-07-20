@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "News Headlines";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+<div class="media">
+    <a class="pull-left" href="@Url.Action( "News", "News")">
+
+        <img class="media-object" src="~/Content/Images/newsplaceholder.jpg" alt="...">
+    </a>
+    <div class="media-body">
+        <h4 class="media-heading">Media heading</h4>
+        ...
+    </div>
+</div>
